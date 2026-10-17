@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/d00rsfan/BiglyBTC-plugin-azrating",
+  "local_review_commit": "6b2c2d831cb3bedf4887f5f1493a29c97f264f85",
+  "original_biglybt_commit": "cb8c6cb9bb97916cbc7e80338a017200ffc3e71f",
+  "sdk_commit": "499466856913d4d7d5e73d2a143c845864c7b44d",
+  "core_commit": "499466856913d4d7d5e73d2a143c845864c7b44d",
+  "ci_enabled": false,
+  "scope": "rating development source foundation only; no binary/catalogue release or full application/plugin parity claim",
+  "files_sha256": {
+    "CMakeLists.txt": "363bd5fe98835e2c5d2828cbc1af3282ebd66ab0a0f10d7e55bb7d9975b53574",
+    "COPYING": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
+    "README.md": "f4afa48bd1f1e118a6d4697bd5b94cb8592e99abfe1e5c2932ca13141140f9fa",
+    "bounds_test.cpp": "f583acdd72fa17c76e2aa83577a7c5e059f77ad542626ba9c027d65fce95851f",
+    "fixture_test.py": "a9cf68d51de499d9e5ce348ddf7b5a920333c598849a189e14224a1226998998",
+    "rating_data.cpp": "9cc52433ca85c6edab960f5fe7fcf5c7fa319f15dad5fc6f5bd3ac9f92031896",
+    "rating_data.hpp": "912589da9cf1bea24c927a90013bf332b023f4c5cb158e28dbe0a493f6f87058",
+    "rating_driver.cpp": "64637e0fdd5091c2e8aaeedcf9f2a948634105e2b4f104e3ebd66459313a13ee",
+    "LICENSE": "db296f2f7f35bca3a174efb0eb392b3b17bd94b341851429a3dff411b1c2fc73",
+    "cmake/Toolchain.cmake": "b18f11310d62491bdaa615ecaa024daed381050306982fca7b3cf31d23564564",
+    "fixtures/commands.txt": "db3e186aa8732f554fe45648f8c70b1915057145dd12493b3336b5ffc7905919",
+    "fixtures/expected.txt": "e17460cae22483868685a15d47a47e551d128714153ad60bf3ac1e5595884f04",
+    "fixtures/manifest.json": "15b053e883add4e9fcfcbd942e6b59d6d9b397055ebf1b72b9404539325ba79b",
+    "ci/compatibility.yml": "7b75e440731007eb336a923371db9834801f9e2f24c944ea48b4dfc55eb63686"
+  }
+}
