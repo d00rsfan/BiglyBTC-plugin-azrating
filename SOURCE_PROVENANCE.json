@@ -4,12 +4,12 @@
   "original_biglybt_commit": "cb8c6cb9bb97916cbc7e80338a017200ffc3e71f",
   "sdk_commit": "499466856913d4d7d5e73d2a143c845864c7b44d",
   "core_commit": "499466856913d4d7d5e73d2a143c845864c7b44d",
-  "ci_enabled": false,
+  "ci_enabled": true,
   "scope": "rating development source foundation only; no binary/catalogue release or full application/plugin parity claim",
   "files_sha256": {
     "CMakeLists.txt": "48433386273b9e925cc4b80faf1ed631f2dc974ba23bede50ee1cbc96d1a6558",
     "COPYING": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6",
-    "README.md": "7faab0376135593181ce61f671e677879bc0910f2376c98392f6d471e0ecc9fa",
+    "README.md": "cfb9313f853ceba7dffb21c969cecf7755b1a8c0094ee07257d18096ca2022e5",
     "bounds_test.cpp": "f583acdd72fa17c76e2aa83577a7c5e059f77ad542626ba9c027d65fce95851f",
     "fixture_test.py": "a9cf68d51de499d9e5ce348ddf7b5a920333c598849a189e14224a1226998998",
     "local_bounds_test.cpp": "d5c1485a107ef0aa69c10ed4f5940db0e220a2536c0992ca4a82021f3c947b53",
@@ -30,6 +30,15 @@
     "local-fixtures/expected.txt": "71af01ae1c4e5496f1e3449b09609d6d262df2de93926ef7e1a20261c452bfed",
     "local-fixtures/manifest.json": "a925ba5d0983bc20e0653bc2648e10cd45886e896379d09ef250735e498f57ea",
     "local-fixtures/runtime.txt": "a3bdaf447261e3dfc0e8663de929b21a5708f56222d3f5e5424f92b917aaeba2",
-    "ci/compatibility.yml": "7b75e440731007eb336a923371db9834801f9e2f24c944ea48b4dfc55eb63686"
+    ".github/workflows/compatibility.yml": "7b75e440731007eb336a923371db9834801f9e2f24c944ea48b4dfc55eb63686"
+  },
+  "ci_activation": {
+    "date": "2026-10-18",
+    "previous_public_commit": "019c13d8916285351441f69e14cf001116a9cb58",
+    "transport": "ssh",
+    "workflow_path": ".github/workflows/compatibility.yml",
+    "runner": "self-hosted Linux X64 biglybtc-linux",
+    "mode": "workflow_dispatch",
+    "note": "Workflow registered; this manifest does not assert a successful remote run."
   }
 }

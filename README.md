@@ -61,5 +61,13 @@ Use matching qualified compiler, standard library and sanitizer/build options fo
 the core and consumer. CMake performs no downloads. Fixtures replay 1819 original
 observations plus bounds tests; no Java installation, user profile or network is
 needed for that independent replay. Local policy adds70000 observations plus
-limits/ownership checks. The inactive ci/ recipe additionally pins
-the core repository commit; no hosted CI result or binary release is implied.
+limits/ownership checks. The workflow additionally pins
+the core repository commit; no binary release is implied.
+
+## Continuous integration
+
+The workflow is [`.github/workflows/compatibility.yml`](.github/workflows/compatibility.yml). [View runs](https://github.com/d00rsfan/BiglyBTC-plugin-azrating/actions).
+
+Start it manually from **Actions → Run workflow** (or `gh workflow run compatibility.yml -R d00rsfan/BiglyBTC-plugin-azrating`). It requires a separately provisioned Linux x64 runner with labels `self-hosted`, `Linux`, `X64`, and `biglybtc-linux`, plus the pinned toolchain and dependencies used by the recipe. Registering the workflow does not provision that runner; a run stays queued until a matching runner is online. It does not run on pull requests.
+
+For future workflow changes, push using this repository's SSH URL (`git@github.com:d00rsfan/BiglyBTC-plugin-azrating.git`). HTTPS pushes authenticated with an OAuth token require the additional `workflow` scope to add or update workflow files. Viewing public Actions runs does not require that scope.
